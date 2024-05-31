@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Enhanced Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.5rem;
+            margin: 20px 0 10px;
+            animation: fadeInLeft 1s ease-out;
+        }
+
+        p,
+        li {
+            line-height: 1.6;
+            animation: fadeInRight 1s ease-out;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #e7e7e7;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .contact p,
+        .contact a {
+            font-size: 1rem;
+            margin: 5px 0;
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .contact a:hover {
+            color: #388E3C;
+        }
+
+        .skills,
+        .contact {
+            text-align: left;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>My Portfolio</h1>
+        <img src="./Image.jpeg" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 20px;">
+        <div class="info">
+            <h2>Hello, I'm Tejas Bansal</h2>
+            <p>I specialize in creating engaging digital experiences. Below are some of my core competencies:</p>
+            <div class="skills">
+                <ul>
+                    <li>Web Development (HTML, CSS, JavaScript)</li>
+                    <li>Graphic Design (Adobe Creative Suite)</li>
+                    <li>UI/UX Design (Sketch, Figma)</li>
+                    <li>Project Management (Agile methodologies)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>Let's Connect</h2>
+            <p>Email: tejasaries@gmail.com</p>
+            <p>Phone: +1234567890</p>
+            <a href="https://www.linkedin.com/in/tejas-bansal-1a7021252/">LinkedIn</a><br>
+            <a href="https://github.com/Tejas220304">GitHub</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
